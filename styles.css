@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap');
 
 *{
     margin: 0;
@@ -13,6 +13,7 @@ body {
 
 img{
     width: 200px;
+    border: none;
    
 }
 
@@ -66,4 +67,153 @@ li {
 
 .main-one .left {
     max-width: 500px;
+}
+
+.main-one .left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+.main-one .left p {
+    line-height: 30px;
+    font-size: 24px;
+    padding-bottom: 70px;
+}
+
+.main-one .left a{
+    padding: 12px 24px;
+    color: white;
+    background: #3882fc;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    font-weight: bold;
+}
+
+.main-one .left a:hover {
+    color: #3882fc;
+    background-color: white;
+}
+
+
+.main-one .right img {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.main-two {
+    background: white;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.main-two .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.main-two .wrapper .some-equipment {
+    display: flex;
+    gap: 15px;
+    margin: 0 auto;
+    max-width: 950px;
+    justify-content: center;
+}
+
+.main-two .wrapper .some-equipment .equipment {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+}
+
+.main-two img {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex: 1;
+}
+
+.main-two h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    width: 800px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+.main-two p {
+    width: 200px;
+}
+
+.main-three {
+    padding: 90px 0;
+    background-color: #e5e7eb;
+}
+
+.main-three .three-wrapper {
+    max-width: 950px;
+    margin: 0 auto;
+    
+}
+
+.main-three p {
+    font-size: 30px;
+    font-style: italic;
+    padding-bottom: 20px;
+    font-weight: 400px;
+}
+
+.main-three h2 {
+    text-align: end;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.main-four {
+    padding: 80px 0;
+}
+
+.main-four .four-wrapper {
+    padding: 50px 100px;
+    background: #3882fc;
+    border-radius: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+}
+
+.main-four h4 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.main-four p {
+    font-size: 20px;
+}
+
+.main-four a {
+    padding: 12px 24px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 25px 0;
+}
+
+.footer p {
+    text-align: center;
 }
