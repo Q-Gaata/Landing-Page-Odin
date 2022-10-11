@@ -211,9 +211,22 @@ li {
 .footer {
     background-color: #1f2937;
     color: white;
-    padding: 25px 0;
+    padding: 34px 0;
 }
 
 .footer p {
     text-align: center;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+    
+}
+
+.sticky + .main-one {
+    padding-top: 200px;
 }

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-        <div class="header">
+        <div id="mainHeader" class="header">
             <nav class="navbar container">
                 <img src="images/logo3.png" alt="Civil Engineer Logo" class="logo">
                 <ul>
@@ -84,5 +84,21 @@
         <div class="footer">
             <p>Copyright &copy; AQG, 2022.</p>
         </div>
+
+        <script>
+            var header1 = document.querySelector('#mainHeader');
+
+            window.addEventListener('scroll', () => {
+                var headerPos = header1.offsetTop;
+                var windowY = window.pageYOffset
+                if(windowY > headerPos){
+                    header1.classList.add('sticky')
+                } else {
+                    header1.classList.remove('sticky')
+                }
+            })
+
+
+        </script>
 </body>
 </html>
